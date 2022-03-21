@@ -20444,12 +20444,13 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.MoveForward,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.behaviors.Turret.prototype.acts.AddTarget,
+	cr.system_object.prototype.acts.SetVar,
 	cr.behaviors.Turret.prototype.cnds.OnShoot,
 	cr.plugins_.Sprite.prototype.acts.Spawn,
-	cr.system_object.prototype.acts.GoToLayout,
 	cr.system_object.prototype.acts.AddVar,
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.system_object.prototype.cnds.CompareVar,
-	cr.behaviors.Platform.prototype.acts.SetDoubleJumpEnabled
+	cr.behaviors.Platform.prototype.acts.SetDoubleJumpEnabled,
+	cr.system_object.prototype.acts.GoToLayout
 ];};
 
