@@ -1,5 +1,5 @@
 ﻿{
-	"version": 1647903871,
+	"version": 1647906734,
 	"fileList": [
 		"data.js",
 		"c2runtime.js",
@@ -9,7 +9,7 @@
 		"images/solidtile.png",
 		"images/movingsolidtile.png",
 		"images/jumpthrutile.png",
-		"images/sprite-sheet0.png",
+		"images/spritechien-sheet0.png",
 		"images/sprite2-sheet0.png",
 		"images/sprite3-sheet0.png",
 		"images/sprite4-sheet0.png",

@@ -20416,9 +20416,9 @@ cr.behaviors.solid = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Arr,
 	cr.plugins_.Keyboard,
-	cr.plugins_.Text,
-	cr.plugins_.TiledBg,
 	cr.plugins_.Sprite,
+	cr.plugins_.TiledBg,
+	cr.plugins_.Text,
 	cr.behaviors.Platform,
 	cr.behaviors.scrollto,
 	cr.behaviors.solid,
@@ -20451,5 +20451,6 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.Destroy,
 	cr.system_object.prototype.cnds.CompareVar,
 	cr.behaviors.Platform.prototype.acts.SetDoubleJumpEnabled,
-	cr.system_object.prototype.acts.GoToLayout
+	cr.system_object.prototype.acts.GoToLayout,
+	cr.plugins_.Sprite.prototype.acts.SetPos
 ];};
