@@ -20453,4 +20453,3 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.Platform.prototype.acts.SetDoubleJumpEnabled,
 	cr.system_object.prototype.acts.GoToLayout
 ];};
-
