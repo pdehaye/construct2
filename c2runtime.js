@@ -20416,9 +20416,9 @@ cr.behaviors.solid = function(runtime)
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Arr,
 	cr.plugins_.Keyboard,
+	cr.plugins_.Text,
 	cr.plugins_.Sprite,
 	cr.plugins_.TiledBg,
-	cr.plugins_.Text,
 	cr.behaviors.Platform,
 	cr.behaviors.scrollto,
 	cr.behaviors.solid,
